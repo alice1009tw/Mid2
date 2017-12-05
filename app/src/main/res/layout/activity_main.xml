@@ -7,7 +7,7 @@
     tools:context="com.fju.mid2.MainActivity">
 
     <Button
-        android:id="@+id/bt1"
+        android:id="@+id/bt_roll"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="8dp"
@@ -26,7 +26,7 @@
         android:onClick="func2"
         android:text="功能2"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bt1" />
+        app:layout_constraintTop_toBottomOf="@+id/bt_roll" />
 
     <Button
         android:id="@+id/bt3"
