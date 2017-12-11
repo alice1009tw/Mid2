@@ -19,7 +19,7 @@ public class Func1Activity extends AppCompatActivity {
         int dice = number.nextInt(6)+1;
         new AlertDialog.Builder(this)
                 .setTitle("結果")
-                .setMessage(dice)
+                .setMessage(""+dice)
                 .setPositiveButton("OK", null)
                 .show();
     }
